@@ -5,14 +5,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSConfigTargets", "CSConfig
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		Prod|Any CPU = Prod|Any CPU
+		Test|Any CPU = Test|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C90A520E-C1D9-4DF1-9A34-0F95ECE19C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C90A520E-C1D9-4DF1-9A34-0F95ECE19C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C90A520E-C1D9-4DF1-9A34-0F95ECE19C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C90A520E-C1D9-4DF1-9A34-0F95ECE19C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C90A520E-C1D9-4DF1-9A34-0F95ECE19C34}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{C90A520E-C1D9-4DF1-9A34-0F95ECE19C34}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{C90A520E-C1D9-4DF1-9A34-0F95ECE19C34}.Prod|Any CPU.ActiveCfg = Release|Any CPU
+		{C90A520E-C1D9-4DF1-9A34-0F95ECE19C34}.Prod|Any CPU.Build.0 = Release|Any CPU
+		{C90A520E-C1D9-4DF1-9A34-0F95ECE19C34}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{C90A520E-C1D9-4DF1-9A34-0F95ECE19C34}.Test|Any CPU.Build.0 = Test|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
